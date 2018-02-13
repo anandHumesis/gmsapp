@@ -1,0 +1,87 @@
+<mat-toolbar>
+  Quiz Application
+</mat-toolbar>
+<mat-nav-list>
+  <a mat-list-item  [routerLink]="['/quiz']">
+    <mat-icon matListIcon>home</mat-icon>
+    <span matLine>Home</span>
+  </a>
+  <a mat-list-item  [routerLink]="['/trending']">
+    <mat-icon matListIcon class="material-icons.md-48">trending_up</mat-icon>
+    <span matLine>Trending</span>
+  </a>
+  <a mat-list-item  [routerLink]="['/recommended']">
+    <mat-icon matListIcon class="material-icons.md-48">done_all</mat-icon>
+    <span matLine>Recommended</span>
+  </a>
+  <mat-divider></mat-divider>
+  <h3 mat-subheader>Library - (logged in User)</h3>
+  <mat-divider></mat-divider>
+  <a mat-list-item  [routerLink]="['/tags']">
+    <mat-icon matListIcon>dashboard</mat-icon>
+    <span matLine>Dashboard</span>
+  </a>
+  <a mat-list-item  [routerLink]="['/tags']">
+    <mat-icon matListIcon>subject</mat-icon>
+    <span matLine>Drafts</span>
+  </a>
+  <a mat-list-item  [routerLink]="['/tags']">
+    <mat-icon matListIcon>publish</mat-icon>
+    <span matLine>Quiz Published</span>
+  </a>
+  <a mat-list-item  [routerLink]="['/tags']">
+    <mat-icon matListIcon>assignment_turned_in</mat-icon>
+    <span matLine>Quiz Taken</span>
+  </a>
+  <a mat-list-item [routerLink]="['/tags']">
+    <mat-icon matListIcon>bookmark</mat-icon>
+    <span matLine>Bookmarks</span>
+  </a>
+  <a mat-list-item [routerLink]="['/subscriptions']">
+    <mat-icon matListIcon class="material-icons.md-48">subscriptions</mat-icon>
+    <span matLine>Subscriptions</span>
+  </a>
+  <a mat-list-item [routerLink]="['/history']">
+    <mat-icon matListIcon>history</mat-icon>
+    <span matLine>Recent Activity</span>
+  </a>
+  <mat-divider></mat-divider>
+  <h3 mat-subheader>Account - (logged in User)  </h3>
+  <mat-divider></mat-divider>
+  <a mat-list-item [routerLink]="['/tags']">
+    <mat-icon matListIcon>account_circle</mat-icon>
+    <span matLine>Profile</span>
+  </a>
+  <a mat-list-item [routerLink]="['/quiz']">
+    <mat-icon matListIcon>settings</mat-icon>
+    <span matLine>Settings</span>
+  </a>
+  <mat-divider></mat-divider>
+  <h3 mat-subheader>Others</h3>
+  <mat-divider></mat-divider>
+  <a mat-list-item [routerLink]="['/plans']">
+    <mat-icon matListIcon>attach_money</mat-icon>
+    <span matLine>Plans</span>
+  </a>
+  <a mat-list-item [routerLink]="['/developer']">
+    <mat-icon matListIcon>developer_mode</mat-icon>
+    <span matLine>Developers</span>
+  </a>
+  <a mat-list-item [routerLink]="['/blogs']">
+    <mat-icon matListIcon>library_books</mat-icon>
+    <span matLine>Blogs</span>
+  </a>
+  <mat-divider></mat-divider>
+  <a mat-list-item [routerLink]="['/about']">
+    <mat-icon matListIcon>info</mat-icon>
+    <span matLine>About</span>
+  </a>
+  <a mat-list-item [routerLink]="['/help']">
+    <mat-icon matListIcon>help</mat-icon>
+    <span matLine>Help</span>
+  </a>
+  <a mat-list-item [routerLink]="['/feedback']">
+    <mat-icon matListIcon>feedback</mat-icon>
+    <span matLine>Feedback</span>
+  </a>
+</mat-nav-list>

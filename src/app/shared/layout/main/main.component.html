@@ -1,0 +1,25 @@
+
+<mat-sidenav-container class="wrapper" fullscreen>
+  <mat-sidenav mode="push" #sidenav class="mat-nav-list">
+    <app-sidenav (click)="sidenav.close()"></app-sidenav>
+  </mat-sidenav>
+
+  <div class="page-wrap">
+
+    <header role="banner">
+      <app-header (menuClicked)="sidenav.open()"></app-header>
+    </header>
+
+    <main class="content">
+      <router-outlet></router-outlet>
+    </main>
+
+    <footer>
+      <app-footer></app-footer>
+    </footer>
+
+  </div>
+</mat-sidenav-container>
+
+
+

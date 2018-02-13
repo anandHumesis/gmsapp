@@ -1,0 +1,133 @@
+.spacer {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.flex-item {
+  padding-top: 0.3vw;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.main {
+  flex: 2;
+}
+
+.mat-toolbar {
+  box-shadow: 0px 4px 6px rgba(188, 178, 178, 1) !important;
+  background: #ffffff !important;
+}
+
+.menubutton {
+  margin-top: 15px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 14px;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 4px solid transparent;
+  color: #6d6e70;
+}
+
+  .menubutton:hover {
+      outline: none;
+      border-bottom: 4px solid #f10808;
+      background: none !important;
+      color: #f10808 !important;
+      cursor:pointer !important;
+  }
+
+  .menubutton::selection {
+      outline: none;
+      border-bottom: 4px solid #f10808;
+      background: none !important;
+      color: #f10808 !important;
+      cursor:pointer !important;
+  }
+
+.menubuttonselected {
+  border-bottom: 4px solid #f10808 !important;
+  color: #f10808 !important;
+  background: none !important;
+}
+
+.mat-menu-item {
+  font-size: 16px !important;
+  font-family: Arial !important;
+  font-kerning: normal !important;
+  color: #ffffff !important;
+  border: 6px solid #6d6e70 !important;
+}
+button.mat-menu-item {
+  height: 60px !important;
+}
+.mat-menu-item:hover{
+  background-color:#000000 !important;
+}
+
+.mat-menu-content {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  background: #6d6e70 !important;
+}
+
+
+.userinfo {
+  font-family: 'Arial-BoldMT', 'Arial Bold', 'Arial';
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  line-height: 15px;
+}
+
+.acccir {
+  font-size: 35px !important;
+}
+
+.divide {
+  margin-left: 25px;
+  border-left: solid 2px grey;
+}
+
+.scrtitle {
+  font-weight: 400;
+  padding-left: 0px;
+  font-size: 22px;
+  color: #6D6E70;
+}
+
+.textgrad {
+  font-size: 30px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#ff0000, #76150a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 35px;
+}
+.scrtext1 {
+  font-size: 11px;
+  font-weight: bold;
+  position: absolute;
+  padding-left: 5px;
+  margin-top: -5px;
+}
+.scrtext2 {
+  font-size: 11px;
+  font-weight: bold;
+  width: 25px;
+  padding-top: 8px;
+  height: 50px;
+  position: absolute;
+  padding-left: 5px;
+}
+.imglogo {
+  width:200px;
+}
+.imgspan{
+  margin-top: -2px;
+  position: absolute;
+}
